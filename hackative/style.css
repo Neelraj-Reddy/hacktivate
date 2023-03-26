@@ -1,0 +1,222 @@
+h1{
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top:50%;
+  left:10%;
+}
+
+
+.split {
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.left {
+left: 0;
+/*   background-color: #EDFA0C; */
+/*   background-color: #865DFF; */
+  background-color: #191825;
+}
+.right {
+right: 0;
+/*   background-color: #9332FA; */
+/*   background-color: #191825; */
+  background-color: #865DFF;
+
+}
+
+.events{
+display: block;
+/*   background-color:rgb(0, 254, 30); */
+background-color:#E384FF;
+align-items: center;
+position: absolute;
+top: 5%;
+left:20%;
+right:0%;
+/*   border: 0.5px solid black; */
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+/*   border-radius: 10px; */
+padding:4.5%;
+box-shadow: 7px 7px #191825;
+animation-name: reverse;
+animation-duration: 1s;
+}
+.event-text{
+display: inline-block;
+font-family: 'Fasthand', cursive;
+font-size:25px;
+/*   border: 2px solid black; 
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px; 
+border-radius: 10px; */
+padding:0.65%;
+}
+
+.events:hover{
+left: 5%;
+transition:1s;
+/*   background-color: yellow; */
+background-color: yellow;
+animation-name: myanimation;
+}
+.event1{
+display: block;
+/*   background-color:rgb(180, 124, 224); */
+background-color:#E384FF;
+align-items: center;
+position:absolute;
+top: 22%;
+left:20%;
+right:0%;
+/*   border: 0.5px solid black; */
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+box-shadow: 7px 7px #191825;
+padding:4.5%;
+animation-name: reverse;
+animation-duration: 1s;
+}
+.event1:hover{
+left:5%;
+transition:1s;
+animation-name: myanimation;
+background-color: yellow;
+}
+
+.event2{
+display: block;
+/*   background-color:rgb(215, 30, 30); */
+background-color:#E384FF;
+align-items: center;
+position: absolute;
+top: 39%;
+left:20%;
+right:0%;
+/*   border: 0.5px solid black; */
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+box-shadow: 7px 7px #191825;
+padding:4.5%;
+animation-name: reverse;
+animation-duration: 1s;
+}
+.event2:hover{
+left:5%;
+transition:1s;
+animation-name: myanimation;
+background-color: yellow;
+}
+.event3{
+display: block;
+/*   background-color:rgb(215, 30, 30); */
+background-color:#E384FF;
+align-items: center;
+position: absolute;
+top: 56%;
+left:20%;
+right:0%;
+/*   border: 0.5px solid black; */
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+box-shadow: 7px 7px #191825;
+padding:4.5%;
+animation-name: reverse;
+animation-duration: 1s;
+}
+.event3:hover{
+left:5%;
+transition:1s;
+animation-name: myanimation;
+background-color: yellow;
+}
+.event4{
+display: block;
+/*   background-color:rgb(215, 30, 30); */
+background-color:#E384FF;
+align-items: center;
+position: absolute;
+top: 73%;
+left:20%;
+right:0%;
+/*   border: 0.5px solid black; */
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+box-shadow: 7px 7px #191825;
+padding:4.5%;
+animation-name: reverse;
+animation-duration: 1s;
+}
+.event4:hover{
+animation-name:in ;
+left:5%;
+transition:1s;
+/*   animation-name: myanimation; */
+background-color: yellow;
+}
+
+@keyframes myanimation {
+from {
+  left:20%;
+}
+to {
+  left:5%;
+}
+}
+
+@keyframes reverse {
+from {
+  left:10%;
+}
+to {
+  left:20%;
+}
+}
+
+.ltext1{
+position: absolute;
+top:40%;
+left:20%;
+text-align: center;
+}
+
+.logo{
+height:250px;
+width:250px;
+}
+
+a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: black;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: black;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.logot{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
